@@ -23,6 +23,7 @@ public class Desarrollo {
         double desc_ecv = 0;
         double desc_cargas = 0;
         double final_cost = 0;
+        double add_final;
         //Desarrollo de preguntas
         System.out.printf("Usted es de: \n "
                 + " 1._Loja\n  2._Zamora\n  3._Otras Provincias\n ");
@@ -46,7 +47,8 @@ public class Desarrollo {
         if (cargas == 1){
         desc_cargas = desc_ecv - Procej_Desc.desc_cargas;    
         }
-        final_cost = desc_cargas + Procej_Desc.ad_admi;
+        add_final = desc_cargas * 0.02;
+        final_cost = desc_cargas + add_final;
         System.out.printf("El valor total a pagar de su matricula "
                 + "es de un total de: $ %.2f", final_cost);
     }

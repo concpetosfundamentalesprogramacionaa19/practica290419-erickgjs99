@@ -15,6 +15,6 @@ public class Procej_Desc {
         public static double desc_age = (matric)*0.1;
         public static double desc_state = (matric)*0.05;
         public static double desc_cargas = (matric)*0.03; 
-        public static double ad_admi = (matric)*0.02;
+       
         
 }
